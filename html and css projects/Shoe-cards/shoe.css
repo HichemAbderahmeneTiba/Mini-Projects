@@ -1,0 +1,95 @@
+body {
+    background-color: #b6b9be;
+    font-family: 'Poppins';
+}
+
+.shoes {
+    margin: 150px auto;
+    
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px rgb(116, 109, 109);
+    text-align: left;
+    text-indent: 20px;
+    width: 600px;
+
+}
+
+.isporty {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+}
+
+.icasual {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+}
+
+.iformal {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+}
+
+
+
+
+
+
+.sporty h2 {
+    font-size: 20px;
+    color: red;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.casual h2 {
+    font-size: 20px;
+    color: blue;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.formal h2 {
+    font-size: 20px;
+    color: brown;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.card p {
+    font-weight: 600;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    position: relative;
+    bottom: 90px;
+    left: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.sporty a {
+    background-color: red;
+}
+
+.formal a {
+    background-color: brown;
+}
+
+.casual a {
+    background-color: blue;
+}

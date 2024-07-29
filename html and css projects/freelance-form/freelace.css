@@ -1,0 +1,36 @@
+body {
+    font-family: 'Rubik';
+    background-color: white;
+}
+
+.form {
+    background-color: darkslategrey;
+    color: white;
+    width: 350px;
+    height: 300px;
+    padding: 50px;text-align: center;
+    font-size: 10;
+    border-radius: 8px;
+    margin: 50px auto;
+}
+
+.input {
+    display: block;
+    margin: 20px auto;
+    width: 320px;
+    height: +40px;
+    border: 0px;
+    font-weight: 900;
+    
+}
+
+.buttom {
+    display: block;
+    margin: 20px auto;
+    width: 320px;
+    height: +40px;
+    background-color: orangered;
+    border: 0px;
+    font-weight: 900;
+    color: white;
+}
