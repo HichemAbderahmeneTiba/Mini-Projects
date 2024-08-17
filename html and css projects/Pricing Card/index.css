@@ -47,6 +47,7 @@ li {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    min-height: 400px;
 }
 
 .card h2 {
@@ -84,6 +85,7 @@ li {
 .card .main-text {
     font-size: 14px;
     margin-bottom: 50px;
+    flex: 1;
 }
 
 .card .main-info {
@@ -115,4 +117,19 @@ li {
 .card ul li i {
     color:green;
     margin-right: 10px;
+}
+
+@media  (max-width:768px) {
+    .Pricing-Card {
+        flex-direction: column;
+    }
+
+    .container {
+        margin: 2rem;
+        padding: 40px 30px;
+    }
+
+    .card {
+        width: 100%;
+    }
 }
