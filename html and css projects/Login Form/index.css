@@ -4,21 +4,174 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.6;
+}
+
 a {
     text-decoration: none;
-    color: black;
 }
 
-body {
-    background-color: rgb(18, 136, 18);
-    font-family: 'Poppins',sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 60px;
+input {
+    border: none;
+    background: none;
 }
 
-.main {
+.screen {
+    background-image: url(Sunlit\ in\ a\ forest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:0.3px solid white;
+    border-radius: 20px;
+    background-color: #ffffff10;
+    backdrop-filter:blur(2px);
+    width: 600px;
+    width: 80%;
+    max-width: 600px; 
+    padding: 20px;
+
+    h1 {
+        font-size: 70px;
+        color: rgb(85, 44, 62);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.username {
+    font-weight: 800;
+    border: 0.1px solid white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    background-color: #ffffff10;
+    backdrop-filter:blur(10px);
+    max-width: 300px;
+    input {
+        font-size: 15px;
+        font-weight: 700;
+        height: 100%;
+        width: 75%;
+        position:relative;
+        left: 20px;
+        height: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        color:  black;
+        placeholder {
+            color:rgb(85, 44, 62);
+        }
+    }
+
+    i {
+        font-size: 25px;
+        margin-left: 25px;
+        margin-top: 5px;
+        color: rgb(85, 44, 62);
+    }
+}
+
+.password {
+    font-weight: 800;
+    border: 0.1px solid white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    background-color: #ffffff10;
+    backdrop-filter:blur(10px);
+    max-width: 300px;
+    input {
+        font-size: 15px;
+        font-weight: 700;
+        height: 100%;
+        width: 75%;
+        position:relative;
+        left: 20px;
+        height: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        color:  black;
+        placeholder {
+            color:rgb(85, 44, 62);
+        }
+    }
+
+    i {
+        font-size: 25px;
+        margin-left: 25px;
+        position: relative;
+        top: 3px;
+        color: rgb(85, 44, 62);
+    }
+}
+
+.other {
+    color:rgb(85, 44, 62);
+    width: 100%;
+    text-align: center;
+    input,a {
+        color:rgb(85, 44, 62);
+        padding: 20px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+
+    a {
+        color: rgb(85, 44, 62);
+    }
+
+    a:hover {
+        color:white;
+    }
+}
+
+.buttom {
+    text-align: center;
+    font-size: 15px;
+    .log {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 900;
+        background-color: rgb(85, 44, 62);
+        color: white;
+        padding: 15px 25px;
+        border-radius: 45px;
+        margin-bottom: 35px;
+    }
+
+    .log:hover {
+        background-color: white;
+        color: rgb(85, 44, 62);
+    }
+
+    p,a {
+        margin-top: 30px;
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+
+    a {
+        color:rgb(85, 44, 62);
+    }
+
+    a:hover {
+        color:white;
+    }
+}
+

@@ -3,31 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login From</title>
+    <title>Login Form</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="main">
-        <h1>Login Form</h1>
-        <form>
-            <div class="information">
+    <div class="screen">
+        <div class="container">
+            <h1>Login</h1>
+            <div class="username item">
+                <input type="text" id="text" placeholder="Username" required>
                 <i class="fa-solid fa-person"></i>
-                <input type="text" id="text" placeholder="Email or Phone" required>
             </div>
-            <div class="password">
-                <i class="fa-solid fa-lock"></i>
+            <div class="password item">
                 <input type="password" id="password" placeholder="Password" required>
+                <i class="fa-solid fa-lock"></i>
             </div>
-            <a href="#">Forgot password</a>
-            <button class="btn">Login</button>
-            <div class="signup">
-                <p>Not a member?<a href="#">Signup now</a></p>
+            <div class="other item">
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox">Remember Me
+                </label>
+                <a href="#">Forgot Password?</a>
             </div>
-        </form>
+            <div class="buttom item">
+                <a href="index.html" class="log">Login</a>
+                <p>
+                    Don't have an account?<a href="#">Register</a>
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
